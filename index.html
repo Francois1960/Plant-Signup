@@ -22,6 +22,10 @@
       background-position: center;
       background-attachment: cover;
   }
+.dropdown-menu,li,a{
+    color: rgb(97, 218, 97);
+}
+  
   .form-group,h3{
       color:rgb(97, 218, 97);
       font-size: large;
@@ -43,10 +47,9 @@
            <p> The source of all your plant information, providing answers to common problems and basic advise</p>
        </div>
        <br>
-       <br>
 
        <div class= "container">
-           <h3 class=> Please complete the information below to register your interest</h3>
+           <h3> Please complete the information below to register your interest</h3>
            <br>
            <br>
             <div class= "form-group">
@@ -66,7 +69,6 @@
                 <h3>How do you rate you level of experience and skill at gardening?
         
                 <br>
-                <br>
                 <div class= "btn-group btn-group-lg">
                     <button type="button" class="btn btn-success">Low</button>
                     <button type="button" class="btn btn-success">Medium</button>
@@ -76,12 +78,30 @@
                 <br>
                 <br>
 
+                <div class ="dropdown">
+                    <h3> What categories of plants are you interested in?
+                    <button Class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">Plant category?
+                        <span class= "caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Mosses & Liverworts</a></li>
+                        <li><a href="#">Ferns</a></li>
+                        <li><a href="#">Conifers</a></li>
+                        <li><a href="#">Flowering Plants</a></li>
+                    
+                    
+                    </ul>
+                </div>
+
+                <br>
+
              <div class="container"> 
             <div class="button">
                 <button type="button" class="btn btn-success">Submit</button>
                 </div>
              </div>
             </h3>
+        </h3>
                 </div>
             
 
